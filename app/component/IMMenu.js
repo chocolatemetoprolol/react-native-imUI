@@ -90,7 +90,6 @@ export default class IMMenu extends Component {
                 key = {i}
             >
                 {item.map((item1,i)=>{
-                    tt++
                     return(
                         <View
                             style={{flex:1,flexDirection:'row',paddingHorizontal:15}}
